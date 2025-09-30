@@ -1,15 +1,12 @@
-package pengambilan;
-
-
-
-public class main {
+public class main  {
 
 	public static void main(String[] args) {
 		
-		 dosen.generate();
-	     generatematkul.generate();
-	     loginsystem.login();
+	dosen.generate();
+	generatematkul.generate();
+	loginsystem.login();
 	}
 	
 	
 }
+
