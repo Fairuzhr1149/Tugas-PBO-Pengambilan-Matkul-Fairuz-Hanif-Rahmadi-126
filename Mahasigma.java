@@ -78,10 +78,11 @@ public class Mahasigma {
         return mhs.get(index);
     }
 
-    @Override
+    
     public String toString() {
         return namamhs + " (" + nrp + ")";
     }
 }
+
 
 
