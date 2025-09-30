@@ -1,9 +1,7 @@
-package pengambilan;
-
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class dosen {
+public class dosen  {
     public String namadosen;
     public String notelp;
     private String passdsn;
@@ -14,11 +12,9 @@ public class dosen {
         this.passdsn = passdsn;
     }
 
-    // List dosen statis
     public static ArrayList<dosen> dsn = new ArrayList<>();
     static Scanner sc = new Scanner(System.in);
 
-    // Generate data awal
     public static void generate() {
         dsn.add(new dosen("Pak_Ahmad", "8155519041", "dosen1"));
         dsn.add(new dosen("Pak_Budi", "8155519042", "dosen2"));
@@ -85,12 +81,10 @@ public class dosen {
         logindsn();
     }
 
-    // Ambil 1 dosen berdasarkan index
     public static dosen getdosen(int index) {
         return dsn.get(index);
     }
 
-    // Ambil semua dosen
     public static ArrayList<dosen> getAllDosen() {
         return dsn;
     }
