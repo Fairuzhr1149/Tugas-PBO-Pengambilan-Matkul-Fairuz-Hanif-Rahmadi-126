@@ -1,8 +1,6 @@
-package pengambilan;
-
 import java.util.Scanner;
 
-public class loginsystem {
+public class loginsystem  {
 
 	static boolean status;
 	
