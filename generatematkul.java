@@ -1,5 +1,3 @@
-package pengambilan;
-
 import java.util.ArrayList;
 
 public class generatematkul {
