@@ -1,9 +1,7 @@
-package pengambilan;
-
 import java.util.Scanner;
 
 
-public class dsnint {
+public class dsnint  {
 
 	public static void interdsn(int iddsn){
 		
