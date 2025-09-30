@@ -57,7 +57,7 @@ public class Mahasigma {
         String newusermhs = scan.nextLine();
 
         for (Mahasigma d : mhs) {
-            if (d.namamhs.equals(newusermhs)) { // FIX disini
+            if (d.namamhs.equals(newusermhs)) { 
                 System.out.println("username sudah ada!");
                 return;
             }
@@ -83,4 +83,5 @@ public class Mahasigma {
         return namamhs + " (" + nrp + ")";
     }
 }
+
 
